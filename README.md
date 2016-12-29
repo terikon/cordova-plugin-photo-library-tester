@@ -10,17 +10,12 @@ To perform tests before pushing changes to repository, temporarly replace follow
 
 ```xml
 <plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git">
-```
-replace with
-```xml
+<!-- replace with -->
 <plugin name="cordova-plugin-photo-library" spec="/local/path/cordova-plugin-photo-library">
 ```
-
 ```xml
 <plugin name="cordova-plugin-photo-library-tests" spec="https://github.com/terikon/cordova-plugin-photo-library.git#:/tests" />
-```
-
-```xml
+<!-- replace with -->
 <plugin name="cordova-plugin-photo-library-tests" spec="/local/path/cordova-plugin-photo-library/tests" />
 ```
 

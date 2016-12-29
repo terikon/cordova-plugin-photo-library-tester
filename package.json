@@ -1,0 +1,16 @@
+{
+  "name": "cordova-plugin-photo-library-tester",
+  "version": "0.0.1",
+  "description": "Tester for cordova-plugin-photo-library",
+  "main": "index.js",
+  "scripts": {
+    "android-run-emulator": "cordova run android --emulator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Roman Viskin",
+    "email": "npm@terikon.com",
+    "url": "http://il.linkedin.com/in/romanviskin"
+  },
+  "license": "MIT"
+}

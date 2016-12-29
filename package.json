@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "android-run-emulator": "cordova run android --emulator",
+    "browser-run": "cordova serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {

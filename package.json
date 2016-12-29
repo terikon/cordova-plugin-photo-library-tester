@@ -12,5 +12,13 @@
     "email": "npm@terikon.com",
     "url": "http://il.linkedin.com/in/romanviskin"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terikon/cordova-plugin-photo-library-tester.git"
+  },
+   "bugs": {
+    "url": "https://github.com/terikon/cordova-plugin-photo-library/issues"
+  },
+  "homepage": "https://github.com/terikon/cordova-plugin-photo-library#readme",
   "license": "MIT"
 }

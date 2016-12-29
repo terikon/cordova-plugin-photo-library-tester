@@ -6,6 +6,8 @@
   "scripts": {
     "android-run-emulator": "cordova run android --emulator",
     "browser-run": "cordova serve",
+    "browser-refresh-plugins": "cordova platform update browser",
+    "browser-refresh-plugins-and-run": "npm run browser-refresh-plugins && npm run browser-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {

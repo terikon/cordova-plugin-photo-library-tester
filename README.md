@@ -6,6 +6,24 @@ Add files from test-images folder to image library of the device.
 
     cordova prepare
 
+To perform tests before pushing changes to repository, temporarly replace following in config.xml:
+
+```xml
+<plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git">
+```
+replace with
+```xml
+<plugin name="cordova-plugin-photo-library" spec="/local/path/cordova-plugin-photo-library">
+```
+
+```xml
+<plugin name="cordova-plugin-photo-library-tests" spec="https://github.com/terikon/cordova-plugin-photo-library.git#:/tests" />
+```
+
+```xml
+<plugin name="cordova-plugin-photo-library-tests" spec="/local/path/cordova-plugin-photo-library/tests" />
+```
+
 # Running
 
 ## Android

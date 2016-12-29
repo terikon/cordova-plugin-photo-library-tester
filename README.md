@@ -27,4 +27,11 @@ To perform tests before pushing changes to repository, do this:
 
 Each time refresh needed, run
 
+For browser:
+
     npm run browser-refresh-plugins-and-run
+
+For android:
+
+    cordova platform remove android
+    cordova platform add android

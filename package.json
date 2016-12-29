@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "android-run-emulator": "cordova run android --emulator",
+    "android-refresh-plugins": "cordova platform update android",
+    "android-copy-test-images-emulator": "adb -e push test-images /mnt/sdcard/DCIM && adb -e shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard",
     "browser-run": "cordova serve",
     "browser-refresh-plugins": "cordova platform update browser",
     "browser-refresh-plugins-and-run": "npm run browser-refresh-plugins && npm run browser-run",

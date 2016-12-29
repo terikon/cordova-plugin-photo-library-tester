@@ -4,7 +4,7 @@
     <description>
         Tester for cordova-plugin-photo-library
     </description>
-    <author email="npm@terikon.com" href="https://github.com/terikon/cordova-plugin-photo-library">
+    <author email="npm@terikon.com" href="http://il.linkedin.com/in/romanviskin">
         Roman Viskin
     </author>
     <content src="cdvtests/index.html" />

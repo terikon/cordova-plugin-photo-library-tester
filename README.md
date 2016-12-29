@@ -18,6 +18,10 @@ To perform tests before pushing changes to repository, temporarly replace follow
 <!-- replace with -->
 <plugin name="cordova-plugin-photo-library-tests" spec="/local/path/cordova-plugin-photo-library/tests" />
 ```
+And run 
+
+    cordova plugin remove cordova-plugin-photo-library cordova-plugin-photo-library-tests
+    cordova plugin add cordova-plugin-photo-library cordova-plugin-photo-library-tests
 
 # Running
 

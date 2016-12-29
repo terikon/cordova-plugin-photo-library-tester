@@ -28,7 +28,7 @@
     <engine name="browser" spec="~4.1.0" />
     <engine name="ios" spec="~4.2.1" />
     <plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git">
-        <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value=" " />
+        <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Access for automated tests" />
     </plugin>
     <plugin name="cordova-plugin-photo-library-tests" spec="https://github.com/terikon/cordova-plugin-photo-library.git#:/tests" />
 </widget>

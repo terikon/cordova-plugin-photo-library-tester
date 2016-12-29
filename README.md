@@ -12,6 +12,8 @@ Add files from test-images folder to image library of the device.
 
     npm run android-run-emulator
 
+Auto tests will fail if permission for storage not granted. First, go to Manual Tests>requestAuthorization test, that will ask for access authorization.
+
 ## Browser
 
     npm run browser-run

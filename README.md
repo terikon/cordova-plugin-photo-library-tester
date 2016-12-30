@@ -1,4 +1,9 @@
-Tester add for [cordova-plugin-photo-library](https://github.com/terikon/cordova-plugin-photo-library).
+Tester app for [cordova-plugin-photo-library](https://github.com/terikon/cordova-plugin-photo-library).
+
+That's how tests look like in the app:
+
+![Automatic tests](https://terikon.github.io/cordova-plugin-photo-library-tester/images/screenshot-AutoTests.png =256)
+![Manual tests](https://terikon.github.io/cordova-plugin-photo-library-tester/images/screenshot-ManualTests.png =256)
 
 # Setting up
 

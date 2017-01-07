@@ -7,7 +7,7 @@ That's how tests look like in the app:
 
 # Setting up
 
-    cordova prepare
+    npm run prepare
 
 Add files from test-images folder to image library of the device.
 

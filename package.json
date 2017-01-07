@@ -4,6 +4,7 @@
   "description": "Tester for cordova-plugin-photo-library",
   "main": "index.js",
   "scripts": {
+    "prepare": "cordova prepare",
     "android-run-emulator": "cordova run android --emulator",
     "android-run-device": "cordova run android --device",
     "android-refresh-plugins": "cordova platform update android",

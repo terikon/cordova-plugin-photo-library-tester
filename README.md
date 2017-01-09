@@ -11,6 +11,13 @@ That's how tests look like in the app:
 
 Add files from test-images folder to image library of the device.
 
+On android, use one of these:
+
+    npm run android-copy-test-images-emulator
+    npm run android-copy-test-images-device
+
+On iOS, go to iTunes, and sync test-images folder with device.
+
 # Running
 
 ## Android

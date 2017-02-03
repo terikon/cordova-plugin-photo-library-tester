@@ -16,7 +16,9 @@ On android, use one of these:
     npm run copy-test-images:android:emulator
     npm run copy-test-images:android:device
 
-On iOS, go to iTunes, and sync test-images folder with device.
+On iOS, go to iTunes, and sync test-images folder with device, or use:
+
+    npm run copy-test-images:ios:simulator
 
 # Running
 

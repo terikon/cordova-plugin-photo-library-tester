@@ -13,8 +13,8 @@ Add files from test-images folder to image library of the device.
 
 On android, use one of these:
 
-    npm run android-copy-test-images-emulator
-    npm run android-copy-test-images-device
+    npm run copy-test-images:android:emulator
+    npm run copy-test-images:android:device
 
 On iOS, go to iTunes, and sync test-images folder with device.
 
@@ -22,17 +22,17 @@ On iOS, go to iTunes, and sync test-images folder with device.
 
 ## Android
 
-    npm run android-run-emulator
+    npm run run:android:emulator
 
 Auto tests will fail if permission for storage not granted. First, go to Manual Tests>requestAuthorization test, that will ask for access authorization.
 
 ## iOS
 
-    npm run ios-run-device
+    npm run run:ios:device
 
 ## Browser
 
-    npm run browser-run
+    npm run run:browser
 
 Select test-images folder when asked by the app.
 
@@ -47,7 +47,7 @@ Each time refresh needed, run
 
 For browser:
 
-    npm run browser-refresh-plugins-and-run
+    npm run refresh-plugins:run:browser
 
 For android:
 

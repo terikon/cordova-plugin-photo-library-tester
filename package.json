@@ -10,7 +10,7 @@
     "refresh-plugins:android": "cordova platform update android",
     "copy-test-images:android:emulator": "adb -e push test-images /mnt/sdcard/DCIM && adb -e shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard",
     "copy-test-images:android:device": "adb -d push test-images /mnt/sdcard/DCIM && adb -d shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard",
-    "copy-test-images:ios:simulator": "xcrun simctl addmedia booted tests/test-images/*",
+    "copy-test-images:ios:simulator": "xcrun simctl addmedia booted test-images/*",
     "run:ios:device": "cordova run ios --device",
     "run:browser": "cordova serve",
     "refresh-plugins:browser": "cordova platform update browser",

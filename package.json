@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-photo-library-tester",
+  "name": "photo-library-tester",
   "version": "0.0.1",
   "description": "Tester for cordova-plugin-photo-library",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terikon/cordova-plugin-photo-library-tester.git"
+    "url": "git+https://github.com/terikon/photo-library-tester.git"
   },
    "bugs": {
     "url": "https://github.com/terikon/cordova-plugin-photo-library/issues"

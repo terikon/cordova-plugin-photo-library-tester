@@ -24,7 +24,10 @@ On iOS, go to iTunes, and sync test-images folder with device, or use:
 
 ## Android
 
+Run one of these:
+
     npm run run:android:emulator
+    npm run run:android:device
 
 Auto tests will fail if permission for storage not granted. First, go to Manual Tests>requestAuthorization test, that will ask for access authorization.
 

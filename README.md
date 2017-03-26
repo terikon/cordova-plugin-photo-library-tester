@@ -2,8 +2,8 @@ Tester app for [cordova-plugin-photo-library](https://github.com/terikon/cordova
 
 That's how tests look like in the app:
 
-<img src="https://terikon.github.io/cordova-plugin-photo-library-tester/images/screenshot-AutoTests.png" width="256" />
-<img src="https://terikon.github.io/cordova-plugin-photo-library-tester/images/screenshot-ManualTests.png" width="256" />
+<img src="https://terikon.github.io/photo-library-tester/images/screenshot-AutoTests.png" width="256" />
+<img src="https://terikon.github.io/photo-library-tester/images/screenshot-ManualTests.png" width="256" />
 
 # Setting up
 
